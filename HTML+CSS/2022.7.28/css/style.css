@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #f3f5f7
+}
+
+.header {
+    width: 1200px;
+    height: 42px;
+    margin: 30px auto;
+}
+
+li {
+    list-style: none;
+}
+
+.logo {
+    float: left;
+    width: 196px;
+    height: 42px;
+    background-image: url(../images/学成在线.png);
+}
+
+.nav {
+    float: left;
+    width: 270px;
+    height: 42px;
+    margin-left: 70px;
+}
+
+.nav li {
+    float: left;
+    height: 42px;
+    padding: 0 auto;
+}
+
+.nav ul li a {
+    display: block;
+    line-height: 42px;
+    padding: 0 20px;
+    font-size: 18px;
+}
+
+.nav ul li a:hover {
+    border-bottom: 1px solid skyblue;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.search {
+    float: left;
+    width: 412px;
+    height: 42px;
+    margin-left: 100px;
+}
+
+.search input {
+    float: left;
+    width: 345px;
+    height: 40px;
+    border: 1px solid blue;
+    border-right: 0;
+    color: #bfbfbf;
+    font-size: 14px;
+    padding-left: 15px;
+}
+
+.search button {
+    float: left;
+    width: 51px;
+    height: 42px;
+    border: 0;
+    background-image: url(../images/btn.png);
+}
+
+.user {
+    float: right;
+    line-height: 42px;
+    margin-right: 30px;
+    font-size: 14px;
+    color: #666;
+}
